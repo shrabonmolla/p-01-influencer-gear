@@ -136,7 +136,14 @@ ul li {
 }
 
 
-
+/* company */
+.company{
+    gap:2rem;
+    max-width: 1110px;
+    justify-content: center;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
 
 
 
