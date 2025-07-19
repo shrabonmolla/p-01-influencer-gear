@@ -51,19 +51,34 @@
     --blue-color:#0A0826;
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 /* shared styles */
 .flex{
     display: flex;
 }
+.btn-primary{
+        background-color: var(--second-color);
+        padding: 1rem 2rem;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+}
+
 
 
 /* nav bar */
 
 nav{
     max-width: 1440px;
+    margin: 0 auto;
     justify-content: space-between;
     padding: 2rem;
+    color: var(--primary-color);
 }
 
 .logo{
@@ -78,6 +93,47 @@ ul li {
     list-style: none;
 }
 
+
+
+/* banner */
+.banner{
+    align-items: center;
+    padding: 2rem;
+}
+.right{
+    position: relative;
+    flex: 1;
+    
+}
+
+.right img{
+    width: 100%;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+.left{
+    color: var(--primary-color);
+    flex: 1;
+}
+
+.left h1{
+    font-size: 3rem;
+}
+.left p{
+    padding: 2rem 0;
+}
+
+.left button i{
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
 
 
 
