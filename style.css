@@ -68,6 +68,19 @@ main{
         border: none;
         border-radius: 0.5rem;
 }
+.p-half{
+    padding: 0.5rem 0;
+}
+.p-1{
+    padding: 1rem;
+}
+
+.gray{
+    color: var(--gray-50-color);
+}
+.dark-gray{
+    color: var(--gray-900-color);
+}
 
 
 
@@ -141,11 +154,54 @@ ul li {
     gap:3rem;
     justify-content: center;
     padding: 3rem;
+    margin: 2rem;
     flex-wrap: wrap;
+    border-top: 0.5px solid var(--gray-50-color);
+    border-bottom: 0.5px solid var(--gray-50-color);
 }
 
 
+/* cards */
+.collection{
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.collection h2{
+    align-self: center;
+    font-size: 2rem;
+   
+}
 
+.collection button {
+    align-self: flex-end;
+    background-color: white;
+    color: var(--second-color);
+    
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.cards{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 329px;
+    background-color: white;
+    border-radius: 0.5rem;
+    
+}
+.cards h3{
+    font-size: 2rem;
+}
+.cards p {
+    width: 60%;
+}
+.rating i{
+
+    color: orange;
+    
+}
 
 
 
