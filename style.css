@@ -204,10 +204,30 @@ ul li {
 }
 
 
+/* featured */
 
+.featured{
+    align-items: center;
+    gap: 2rem;
+}
+.featured img{
+    flex: 1;
+    width: 80%;
+}
 
+.featured div{
 
+flex: 2;
+}
 
+.featured div h2 {
+    font-size: 2rem;
+    color: var(--blue-color);
+}
+
+.featured div  p{
+    padding: 2rem 0;
+}
 
 
 
