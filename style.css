@@ -92,6 +92,7 @@ nav{
     justify-content: space-between;
     padding: 2rem;
     color: var(--primary-color);
+   
 }
 
 .logo{
@@ -239,19 +240,62 @@ flex: 2;
 footer{
     background-color: var(--blue-color);
     color: white;
-    text-align: center;
+    margin: 0 auto;
     padding: 2rem;
-    margin: 3rem 0 0 0 ;
+   
 }
 
 footer i {
     font-size: 1.5rem;
-    margin: 20px;
+    padding: 1rem;
+    
 }
 
 
 
+@media only screen and (max-width: 600px) {
+    /* nav bar */
+   
+    
+    nav{
+      flex-direction: column;
+      align-items: center;
+    }
 
+    nav ul{
+        flex-direction: column;
+       align-items: center;
+       
+    }
+
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+    /* card */
+    .collection{
+        align-items: center;
+    }
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    /* featured */
+    .featured{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 2rem;
+    }
+    /* footer */
+    footer{
+        text-align: center;
+        
+    }
+}
 
 
 
